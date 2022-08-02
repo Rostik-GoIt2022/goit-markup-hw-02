@@ -1,0 +1,44 @@
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: var(--background-color);
+}
+
+.hero-button {
+    background-color: var(--accent-color);
+    color:  var(--background-color);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--background-color);
+    color: var(--accent-color);
+}
+
+.features-text {
+    color: var(--text-color);
+}
+
+.team-text {
+    color: var(--text-color);
+}
+
+.button-list .button {
+    background-color: var(--button-color);
+    color: var(--brand-color);
+    cursor: pointer;
+}
+
+.button-list .button:hover,
+.button-list .button:focus {
+    background-color: var(--accent-color);
+    color: var(--background-color);
+}
+
+.works-text {
+    color: var(--text-color);
+}

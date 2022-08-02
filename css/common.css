@@ -1,0 +1,74 @@
+:root {
+    --brand-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196F3;
+    --background-color: #FFFFFF;
+    --logo-color: #000000;
+    --button-color: #F5F4FA;
+    }
+
+body {
+    background-color: var(--background-color);
+    color: var(--brand-color);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.web {
+    color: var(--accent-color);
+}
+    
+
+.logo {
+    color: var(--logo-color);
+}
+
+.site-navigation .link {
+    color: var(--brand-color);
+}
+
+.site-navigation .link:hover,
+.site-navigation .link:focus {
+    color: var(--accent-color);   
+}
+
+.site-navigation .link.current {
+    color: var(--accent-color);
+}
+
+.contacts-link {
+    color: var(--text-color);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--accent-color);
+}
+
+.address-list {
+    background-color: #2F303A;
+}
+
+.link-address {
+    color: var(--background-color);
+}
+
+.address-list .link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.link-address:hover,
+.link-address:focus {
+    color: var(--accent-color);
+}
+
+.address-list .link:hover,
+.address-list .link:focus {
+    color: var(--accent-color);
+}
